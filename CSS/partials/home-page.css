@@ -85,6 +85,7 @@ main {
 .box-1 {
   display: grid;
   grid-template-areas: "content1-left content1-mid content1-right";
+  justify-content: space-between;
   width: 100%;
   height: auto;
   margin-top: 0.9rem;
@@ -150,6 +151,7 @@ h1 {
 .box-2 {
   display: grid;
   grid-template-areas: "content2-left content2-mid content2-right";
+  justify-content: space-between;
   margin-top: 15rem;
 }
 
