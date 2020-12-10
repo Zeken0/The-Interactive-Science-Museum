@@ -232,7 +232,7 @@ footer .fa-instagram,
   }
 
   .menu {
-    display: block;
+    display: none;
     top: 5.35rem;
     width: 20%;
     height: 246px;
@@ -241,6 +241,10 @@ footer .fa-instagram,
     text-align: center;
     transition: all 0.5s;
     box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.1);
+  }
+
+  .menu.togglecls {
+    display: block;
   }
 
   ul {
@@ -305,7 +309,7 @@ footer .fa-instagram,
   }
 
   .menu {
-    display: block;
+    display: none;
     top: 5.3rem;
     width: 20%;
     height: 188px;
@@ -314,6 +318,10 @@ footer .fa-instagram,
     text-align: center;
     transition: all 0.5s;
     box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.1);
+  }
+
+  .menu.togglecls {
+    display: block;
   }
 
   ul {

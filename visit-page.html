@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="Visit page to the is museum site">
     <link rel="stylesheet" href="/CSS/partials/visit-page.css">
+    <script src="/JS/hamburger-menu.js"></script>
     <script src="https://kit.fontawesome.com/31d00bb5b7.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/31d00bb5b7.js" crossorigin="anonymous"></script>
@@ -17,11 +18,11 @@
                 <a href="/home-page.html"><img src="/img/logo.png" alt="logo"></a>
             </div>
             <div>
-                <button class="hamburger" id="hamburger">
+                <button class="hamburger" onclick="toggleClass()">
                     <i class="fas fa-bars"></i>
                 </button>
             </div>
-            <div class="menu" id="menu">
+            <div class="menu">
                 <ul>
                     <li>
                         <a href="/home-page.html">Home</a>
