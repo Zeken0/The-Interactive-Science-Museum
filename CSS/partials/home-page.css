@@ -467,9 +467,9 @@ footer .fa-instagram,
 
   .menu {
     display: none;
-    top: 5.35rem;
-    width: 20%;
-    height: 246px;
+    top: 5.3rem;
+    width: 100%;
+    height: 257px;
     background: white;
     right: 0;
     text-align: center;
@@ -626,8 +626,8 @@ footer .fa-instagram,
   .menu {
     display: none;
     top: 5.3rem;
-    width: 20%;
-    height: 188px;
+    width: 100%;
+    height: 176px;
     background: white;
     right: 0;
     text-align: center;
