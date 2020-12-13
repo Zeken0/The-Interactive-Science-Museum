@@ -113,7 +113,7 @@ h1 {
 }
 
 .img-1 {
-  margin-top: 6.1rem;
+  margin-top: 1.9rem;
 }
 
 .img-1 {
@@ -497,6 +497,10 @@ footer .fa-instagram,
     text-transform: uppercase;
     font-weight: 700;
     padding: 12px 0px 12px 0px;
+  }
+
+  ul li .active {
+    transition: 0s;
   }
 
   .hero-banner {
