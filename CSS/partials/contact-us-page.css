@@ -99,7 +99,9 @@ h1 {
 }
 
 .container-main {
-  width: 50%;
+  display: grid;
+  justify-content: center;
+  width: 45%;
   margin: auto;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   background-color: white;
@@ -108,7 +110,6 @@ h1 {
 }
 
 .form {
-  margin-left: 5.5rem;
   margin-top: 4rem;
 }
 
@@ -121,17 +122,17 @@ label {
 #last-name,
 #email,
 #topic {
-  width: 80%;
+  width: 100%;
   height: 1.8rem;
   margin-bottom: 1rem;
 }
 
 #question {
-  width: 80%;
+  width: 100%;
 }
 
 .container-btn {
-  width: 80%;
+  width: 100%;
   height: 40px;
   background-color: #d01f43;
   color: white;
@@ -235,17 +236,11 @@ footer .fa-instagram,
   }
 
   .form {
-    margin-left: 0;
     text-align: center;
   }
 
   label {
     text-align: start;
-    margin-left: 2.9rem;
-  }
-
-  .container-btn {
-    margin-left: 2.9rem;
   }
 }
 
@@ -295,6 +290,10 @@ footer .fa-instagram,
     margin-bottom: 3rem;
   }
 
+  main {
+    width: 95%;
+  }
+
   h1 {
     text-align: center;
   }
@@ -310,11 +309,6 @@ footer .fa-instagram,
 
   label {
     text-align: start;
-    margin-left: 1.9rem;
-  }
-
-  .container-btn {
-    margin-left: 1.9rem;
   }
 
   footer {
