@@ -12,6 +12,7 @@ body {
   font-family: "montserrat", sans-serif;
 }
 
+/* -----------------------------------------------  Header  ----------------------------------------------------- */
 header nav {
   height: 85px;
   background-color: white;
@@ -68,6 +69,7 @@ nav ul li a:hover {
   outline: none;
 }
 
+/* -----------------------------------------------  Main  ----------------------------------------------------- */
 .hero-banner {
   height: 70%;
   width: 100%;
@@ -151,6 +153,7 @@ label {
   background-color: #fe365f;
 }
 
+/* -----------------------------------------------  Footer  ----------------------------------------------------- */
 footer {
   display: grid;
   grid-template-areas: "footer_list1 footer_list2 footer_list3 footer_icons";
@@ -183,6 +186,7 @@ footer .fa-instagram,
   cursor: pointer;
 }
 
+/* -----------------------------------------------  Tablet  ----------------------------------------------------- */
 @media (max-width: 991px) /*Tablet*/ {
   .hamburger {
     position: absolute;
@@ -244,6 +248,7 @@ footer .fa-instagram,
   }
 }
 
+/* -----------------------------------------------  Mobile  ----------------------------------------------------- */
 @media (max-width: 767px) /*Mobile*/ {
   .hamburger {
     position: absolute;
@@ -300,6 +305,7 @@ footer .fa-instagram,
 
   .container-main {
     width: 100%;
+    padding: 0px 10px 0px 10px;
   }
 
   .form {
