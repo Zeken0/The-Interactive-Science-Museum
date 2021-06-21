@@ -80,6 +80,8 @@ ul li a:hover {
 main {
   width: 85%;
   margin: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .box-1 {
@@ -389,8 +391,12 @@ h4 {
 
 .content3-bottom {
   grid-area: content3-bottom;
+  display: flex;
+  flex-direction: column;
   width: 60%;
   margin: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .img-10 {
@@ -417,7 +423,7 @@ h4 {
 }
 
 .btn-2 {
-  width: 45%;
+  width: 400px;
   height: 50px;
   background-color: #d01f43;
   color: white;
@@ -428,7 +434,6 @@ h4 {
   margin-bottom: 5rem;
   cursor: pointer;
   outline: none;
-  margin-left: 12.25rem;
 }
 
 .btn-2:hover {
@@ -581,8 +586,7 @@ footer .fa-instagram,
   }
 
   .btn-2 {
-    width: 60%;
-    margin-left: 8rem;
+    width: 300px;
   }
 
   .content3-top-left {
@@ -807,8 +811,7 @@ footer .fa-instagram,
   }
 
   .btn-2 {
-    width: 100%;
-    margin-left: 0;
+    width: 320px;
   }
 
   .img-6,
