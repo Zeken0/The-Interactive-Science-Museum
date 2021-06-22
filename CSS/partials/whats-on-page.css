@@ -74,6 +74,7 @@ ul li a:hover {
   background-image: url(/img/pic14.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
