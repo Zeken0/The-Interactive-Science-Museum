@@ -69,7 +69,7 @@ ul li a:hover {
 }
 
 .hero-banner {
-  height: 70%;
+  height: 75%;
   width: 100%;
   background-image: url(/img/pic14.jpg);
   background-repeat: no-repeat;
@@ -84,7 +84,7 @@ main {
 }
 
 .container {
-  margin-top: 2.9rem;
+  margin-top: 1.9rem;
   margin-bottom: 5rem;
 }
 

@@ -69,11 +69,12 @@ ul li a:hover {
 }
 
 .hero-banner {
-  height: 70%;
+  height: 75%;
   width: 100%;
-  background-image: url(/img/pic12.jpg);
+  background-image: url(/img/img3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: top;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -97,7 +98,7 @@ h1 {
   margin-bottom: 4rem;
   text-decoration: underline;
   text-decoration-color: #d01f43;
-  margin-top: 2.9rem;
+  margin-top: 1.9rem;
 }
 
 .box-1 {

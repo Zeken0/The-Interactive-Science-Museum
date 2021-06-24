@@ -71,7 +71,7 @@ nav ul li a:hover {
 
 /* -----------------------------------------------  Main  ----------------------------------------------------- */
 .hero-banner {
-  height: 70%;
+  height: 75%;
   width: 100%;
   background-image: url(/img/pic2.jpg);
   background-repeat: no-repeat;
@@ -85,7 +85,7 @@ main {
 }
 
 .container {
-  margin-top: 2.9rem;
+  margin-top: 1.9rem;
   margin-bottom: 5rem;
 }
 
@@ -125,13 +125,19 @@ label {
 #last-name,
 #email,
 #topic {
+  font-size: 0.9rem;
   width: 100%;
   height: 1.8rem;
   margin-bottom: 1rem;
+  padding: 0 5px;
+  font-weight: 500;
 }
 
 #question {
   width: 100%;
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 5px 3px 0 5px;
 }
 
 .container-btn {
@@ -241,6 +247,8 @@ footer .fa-instagram,
   }
 
   .form {
+    width: 90%;
+    margin: 3rem auto 0 auto;
     text-align: center;
   }
 
@@ -306,11 +314,9 @@ footer .fa-instagram,
 
   .container-main {
     width: 100%;
-    padding: 0px 10px 0px 10px;
   }
 
   .form {
-    margin-left: 0;
     text-align: center;
   }
 

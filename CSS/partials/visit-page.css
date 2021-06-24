@@ -69,7 +69,7 @@ ul li a:hover {
 }
 
 .hero-banner {
-  height: 70%;
+  height: 75%;
   width: 100%;
   background-image: url(/img/pic3.jpg);
   background-repeat: no-repeat;
@@ -92,7 +92,8 @@ main {
 h1 {
   font-size: 30px;
   font-family: "space mono", monospace;
-  margin-top: 2.9rem;
+  margin-top: 1.9rem;
+  margin-bottom: 1rem;
   text-decoration: underline;
   text-decoration-color: #d01f43;
 }
